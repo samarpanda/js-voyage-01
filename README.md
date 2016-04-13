@@ -12,3 +12,4 @@ Javascript presentation.
 ## References Links
 
 1. [http://kangax.github.io/compat-table/es6/](http://kangax.github.io/compat-table/es6/)
+1. [Const creates a immutable binding](https://mathiasbynens.be/notes/es6-const)
