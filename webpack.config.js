@@ -41,7 +41,7 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.css$/, loader: 'style!css' },
-      { test: /\.js?$/, exclude: /node_modules/, loader: 'babel', query:{ compact: true,presets: ['es2015','stage-0','stage-1'] } },
+      { test: /\.js?$/, exclude: /node_modules/, loader: 'babel', query:{ compact: true,presets: ['es2015','stage-0','stage-1', 'stage-2', 'stage-3'] } },
       { test: /\.woff(2)?$/,   loader: 'url?limit=10000&mimetype=application/font-woff' },
       { test: /\.ttf$/, loader: 'file' },
       { test: /\.eot$/, loader: 'file' },

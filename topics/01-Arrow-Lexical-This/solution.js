@@ -25,8 +25,8 @@ var obj = new doSomething({
 });
 
 const cme = 20;
-// const cmd = 30; => throws exception
+// const cmd = 30;// => throws exception
 
 const me = {};
 me.bar = 42;
-console.log(foo.bar);//=> 42
+console.log(me.bar);//=> 42

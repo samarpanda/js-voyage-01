@@ -1,3 +1,4 @@
+//ES5
 var list = document.getElementById("app");
 
 for (var i = 1; i <= 5; i++) {

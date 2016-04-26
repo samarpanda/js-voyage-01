@@ -10,7 +10,7 @@ class Hello {
     return `Hello ${this.name}!`;
   }
   static sayHelloAll(){
-    return 'Hello Everyone!';
+    return 'Hello Everyone !';
   }
 }
 

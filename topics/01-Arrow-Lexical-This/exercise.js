@@ -15,6 +15,7 @@ function doSomething(service){
   this.foo = 'Hello';
   var self = this;
   service.something(function(){
+    // console.log(this.foo)
     console.log(self.foo);
   });
 }

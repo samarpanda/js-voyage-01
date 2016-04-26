@@ -11,10 +11,10 @@ for (var i = 1; i <= 5; i++) {
   list.appendChild(item);
 }
 
-const foo1 = 27;
+// const foo1 = 27;
 // foo1 = 42;
 
-var foo = 27;
-foo.bar = 42;
-console.log(foo.bar);
+// var foo = 27;
+// foo.bar = 42;
+// console.log(foo.bar);
 // → `undefined`

@@ -1,5 +1,6 @@
 /**
  * Compose function
+ g(f(x)) = f(x) gf(x)
  */
 function compose(g, f){
   return function(x){
@@ -22,4 +23,5 @@ function properNoun(s){
 }
 
 var revCap = compose(reverse, properNoun);
-console.log(revCap("samar"));
+
+console.log(revCap("Hello"));
